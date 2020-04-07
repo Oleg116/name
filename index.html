@@ -2,12 +2,19 @@
 <html>
 <head>
 	<title>title</title>
-	<link rel="stylesheet" type="text/css" href="main.css"></head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </head>
 <body>
 <div class="container">
 <nav class="navbar">
+	<div class="congr">
 	<h2>Hello, {{ Name }}</h2>
+	</div>
 	<ul class="list">
 		<li class="listElement">My Orders</li>
 		<li class="listElement">My details</li>
@@ -15,6 +22,7 @@
 		<li class="listElement">Sign out</li>
 	</ul>
 </nav>
+ <! -- left side above rightside below -->
 <aside>
 	<div class="Address">
 	<h1>Address Book</h1>
@@ -22,11 +30,16 @@
   <input type="text" id="fname" name="fname" value="First Name"><br>
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Last Name"><br><br>
-  <label for="lname">Em@il:</label><br>
-  <input type="text" id="lname" name="lname" value="email"><br><br>
+  <label for="epost">Em@il:</label><br>
+  <input type="text" id="epost" name="epost" value="email"><br><br>
 </div>
 </div>
 </aside>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
 </html>
