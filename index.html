@@ -5,13 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="main.css"></head>
 </head>
 <body>
-<nav>
-	<ul>
-		<li>My Orders</li>
-		<li>My details</li>
-		<li>Adderss Book</li>
-		<li>Sign out</li>
+<div class="container">
+<nav class="navbar">
+	<h2>Hello, {{ Name }}</h2>
+	<ul class="list">
+		<li class="listElement">My Orders</li>
+		<li class="listElement">My details</li>
+		<li class="listElement">Adderss Book</li>
+		<li class="listElement">Sign out</li>
 	</ul>
 </nav>
+<aside>
+	<div class="Address">
+	<h1>Address Book</h1>
+	<div class="FirstName"><span>First Name</span><input type="text" name="FirstName"></div>
+</div>
+</aside>
+</div>
 </body>
 </html>
