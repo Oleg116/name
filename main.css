@@ -10,6 +10,11 @@ ul{
 input{
 	display: block;
 	height: 20px;
+	width: 180px;
+}
+select{
+	height: 20px;
+	width: 180px;
 }
 h2{
 padding-left: : 10px;
@@ -22,7 +27,7 @@ width: 800px;
 display: inline-block;
 background-color: #d6d6d6;
 position: fixed;
-bottom: 43px;
+bottom: 39px;
 }
 .container{
 display: inline;
@@ -71,17 +76,21 @@ float: left;
 .firstrow{
 	display: flex;
 	flex-direction: row;
+	margin-left: 22px;
 }
 .secblock{
 	margin-left: 10px;
 }
 .thirdRow{
-	padding: 10px;
+	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
 }
 .thirdRowElement{
 	margin-left: 10px; 
+}
+.check{
+	width: 115px;
 }
 .listElement:active{
 	align-content: center;
