@@ -68,6 +68,13 @@ float: left;
 	width: 800px;
 	display: inline;
 }
+.firstrow{
+	display: flex;
+	flex-direction: row;
+}
+.secblock{
+	margin-left: 10px;
+}
 .listElement:active{
 	align-content: center;
 	padding-top: 5px;
