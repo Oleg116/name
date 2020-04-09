@@ -75,6 +75,14 @@ float: left;
 .secblock{
 	margin-left: 10px;
 }
+.thirdRow{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.thirdRowElement{
+	margin-left: 10px; 
+}
 .listElement:active{
 	align-content: center;
 	padding-top: 5px;
