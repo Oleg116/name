@@ -29,7 +29,7 @@ background-color: #d6d6d6;
 position: fixed;
 bottom: 39px;
 }
-button{
+.CancelButton{
 	color: #293135;
 	border: 2px solid #293135;
 	background-color: #d6d6d6;
@@ -97,8 +97,38 @@ float: left;
 .thirdRowElement{
 	margin-left: 10px; 
 }
+.fourthRow{
+	display: flex;
+	flex-direction: row;
+}
+.addButton{
+	width: 150px;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+	background-color: #293135;
+	border:2px solid #293135;
+	margin-left: 20px;
+}
+.Addbutton{
+	border-left:2px solid #293135;
+	width: 35px;
+	background-color: #d6d6d6;
+	height: 35px;
+	color: #293135;
+}
 .check{
 	width: 115px;
+}
+.addText{
+	font-color: #fff;
+	text-align: center;
+color: #d6d6d6;
+	border: 0px;
+	background-color: #293135;
+	margin-left: 20px;
+	width: 110px;
+	height: 35px;
 }
 input:hover{
 	background-color: #d6d6d6;
