@@ -14,30 +14,29 @@
 <div class="container">
 <nav class="navbar">
 	<div class="congr">
-	<h2>Hello, {{ Name }}</h2>
+	<h2>Hello, {{ fname }} {{ lname }}</h2>
 	</div>
 	<ul class="list">
-		<li class="listElement">  My Orders</li>
+		<li class="listElement"><i class="fa fa-cube" aria-hidden="true"></i>  My Orders</li>
 		<li class="listElement"><i class="fa fa-user-o" aria-hidden="true"></i>  My details</li>
 		<li class="listElement"><i class="fa fa-home"></i>  Address Book</li>
 		<li class="listElement"><i class="fa fa-sign-out" aria-hidden="true"></i>  Sign out</li>
 	</ul>
+
 </nav>
  <! -- left side above rightside below -->
 <aside>
 	<div class="Address">
 	<h1>Address Book</h1>
+	<form>
 	<div class="firstrow">
 	<div class="firstblock">
-		<form>
  <label for="fname">First name</label><br>
   <input type="text" id="fname" name="fname" value="First Name"><br>
-</form>
   <form>
   <label for="lname">Email Adress</label><br>
   <input type="text" id="lname" name="lname" value="Last Name"><br><br>
-   </form>
-     <form>
+  
    <p><select size="3" name="country">
     <option disabled>Choose your country</option>
     <option value="t1" selected>Ukraine</option>
@@ -45,21 +44,18 @@
     <option value="t3">Israel</option>
     <option value="t4">France</option>
    </select></p>
-  </form>
 </div>
 <div class="secblock">
-		<form>
+<form>		
  <label for="fname">Last name</label><br>
   <input type="text" id="fname" name="fname" value="Last Name"><br>
-</form>
-  <form>
+
   <label for="lname">Phone number</label><br>
   <input type="tel" id="lname" name="lname" limit="10" value="+(   )   -    "><br><br>
-   </form>
-     <form>
+
   <label for="email">Enter your email:</label>
   <input type="email" id="email" name="email">
-  </form>
+  
 </div>
 </div>
 <div class="thirdRow">
@@ -73,7 +69,7 @@
 </div>
 <div class="thirdRowElement">
 		<label for="lname">ZIP code</label><br>
-  <input class="check" type="number" id="ZIP" name="ZIP" value=" "><br><br>
+  <input class="check" type="text" id="ZIP" name="ZIP" value=" "><br><br>
 </div>
 </div>
 <div class="fourthRow">
@@ -82,9 +78,10 @@
 </div>
 <div class="addButton">
 	<div class="addText">Add</div>
-	<div class="button"><button class="Addbutton">></button></div>
+	<div class="button"><input type="submit" name=">" class="Addbutton" value=">"></div>
 </div>
 </div>
+</form>
 </aside>
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
