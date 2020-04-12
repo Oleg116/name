@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">
-<nav class="navbar">
+<nav class="nav-bar">
 	<div class="congr">
 	<h2>Hello, {{ fname }} {{ lname }}</h2>
 	</div>
@@ -24,36 +24,36 @@
 	</ul>
 
 </nav>
- <! -- left side above rightside below -->
+												 <! -- left side above rightside below -->
 <aside>
 	<div class="Address">
 		<h1>Address Book</h1>
 	<form>
 		<div class="firstrow">
 			<div class="firstblock">
- 				<label for="fname">First name</label><br>
-  				<input type="text" id="fname" name="fname" value="First Name"><br>
-  				<label for="lname">Email Adress</label><br>
-  				<input type="text" id="lname" name="lname" value="Last Name"><br><br>
-  
-   <p><select  name="country">
-    <option disabled>Choose your country</option>
-    <option value="t1" selected>Ukraine</option>
-    <option value="t2">USA</option>
-    <option value="t3">Israel</option>
-    <option value="t4">France</option>
-   </select></p>
-</div>
+ 					<label for="fname">First name</label><br>
+  					<input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  					<label for="lname">Email Adress</label><br>
+  					<input type="text" id="lname" name="lname" placeholder=""><br><br>
+  					<span>Country</span><br>
+   				<select  name="country">
+    				<option disabled>Choose your country</option>
+    				<option value="t1" selected>Ukraine</option>
+    				<option value="t2">USA</option>
+    				<option value="t3">Israel</option>
+    				<option value="t4">France</option>
+   				</select>
+			</div>
 <div class="secblock">
 <form>		
  <label for="fname">Last name</label><br>
-  <input type="text" id="fname" name="fname" value="Last Name"><br>
+  <input type="text" id="fname" name="fname" placeholder="Last Name"><br>
 
   <label for="lname">Phone number</label><br>
-  <input type="tel" id="lname" name="lname" limit="10" value="+(   )   -    "><br><br>
+  <input type="tel" id="lname" name="lname" limit="10"><br><br>
 
   <label for="email">Enter your email:</label>
-  <input type="email" id="email" name="email">
+  <input type="email" id="email" name="email" placeholder="name.example@gmail.com">
   
 </div>
 </div>
@@ -64,7 +64,13 @@
 </div>
 <div class="thirdRowElement">
 	<label for="lname">State</label><br>
-  <input class="check" type="text" id="State" name="State" value=" "><br><br>
+   				<select  name="State" class="state-select">
+    				<option disabled selected></option>
+    				<option value="t1">Ukraine</option>
+    				<option value="t2">USA</option>
+    				<option value="t3">Israel</option>
+    				<option value="t4">France</option>
+   				</select>
 </div>
 <div class="thirdRowElement">
 		<label for="lname">ZIP code</label><br>
@@ -73,10 +79,10 @@
 </div>
 <div class="fourthRow">
 	<div class="cancelButton">
-		<button class="CancelButton">Cancel</button>
+		<button class="Cancel-button">Cancel</button>
 </div>
 <div class="addButton">
-	<div class="addText">Add</div>
+	<div class="full-add-button"><span class="addText">Add</span></div>
 	<div class="button"><input type="submit" name=">" class="Addbutton" value=">"></div>
 </div>
 </div>
@@ -87,5 +93,7 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 <script src="main.js"></script>
+</div>
+</div>
 </body>
 </html>

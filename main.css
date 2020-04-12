@@ -12,27 +12,35 @@ ul{
 
 li{
 	display: block;
-	margin-left: 20px;
+	margin-left: 0px;
 }
 
+i{
+	padding-left: 50px;
+}
 h1{
 	margin-left: 20px;
 }
 
 input{
+	border: 1px solid #fff;
 	display: block;
 	height: 20px;
 	width: 180px;
+	transition: 0.3s;
+	box-shadow: 0 0 5px 0.1px;
 }
 
 select{
-	height: 20px;
+	margin-top: 0px;
+	height: 23px;
+	box-shadow: 0 0 5px 0.1px;
 	width: 180px;
 }
 
 h2{
-padding-left: : 10px;
-display: inline-block;
+	padding-left: : 10px;
+	display: inline-block;
 }
 
 aside{
@@ -40,37 +48,50 @@ margin: 10px;
 height: 600px;
 width: 800px;
 display: inline-block;
-background-color: #d6d6d6;
+background-color: #f2f5f6;
 }
 
-.CancelButton{
+span{
+	margin: 5px;
+}
+
+.full-add-button{
+	display: flex;
+	flex-direction: row;
+	width: 110px;
+	height: 35px
+}
+.Cancel-button{
 	color: #293135;
 	border: 2px solid #293135;
-	background-color: #d6d6d6;
+	background-color: #f2f5f6;
 	margin-left: 20px;
 	width: 110px;
 	height: 35px;
+	transition: 0.2s;
 }
 
 .container{
-display: inline;
+display: flex;
+flex-direction: row;
 padding: 10px;
 }
 
-.navbar{
+.nav-bar{
 	text-align: left;
-margin-bottom: 100px;
+	margin: 10px;
 	height: 600px;
 	width: 230px;
 	display: inline-block;
-	background-color: #d6d6d6;
+	background-color: #f2f5f6;
 }
 
 .listElement{
-	align-content: center;
-	padding: 10px;
-	font-family: inherit;
-	transition: 0.5s;
+	border-left: 4px solid 	#f2f5f6;
+	align-content: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	transition: 0.2s;
 	
 }
 
@@ -90,8 +111,8 @@ margin-bottom: 100px;
 }
 
 #lname{
-display: inline-block;
-float: left;
+	display: inline-block;
+	float: left;
 }
 
 .FLname{
@@ -139,7 +160,7 @@ float: left;
 .Addbutton{
 	border-left:2px solid #293135;
 	width: 35px;
-	background-color: #d6d6d6;
+	background-color: #f2f5f6;
 	height: 30px;
 	color: #293135;
 }
@@ -149,26 +170,42 @@ float: left;
 }
 
 .addText{
-	font-color: #fff;
 	text-align: center;
-color: #d6d6d6;
-	border: 0px;
+	color: #d6d6d6;
+	padding-top: 0px;
 	background-color: #293135;
 	margin-left: 20px;
 	width: 110px;
 	height: 30px;
 }
 
+.state-select{
+width: 123px;
+height: 25px;
+}
+
 input:hover{
-	background-color: #d6d6d6;
+	background-color: #f2f5f6;
 	border:1px solid;
 }
 
 .listElement:hover{
 	align-content: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-family: inherit;
+	padding-top: 12px;
+	padding-bottom: 8px;
 	background-color: #fff;
 	border-left: 4px solid black;
+}
+select:hover{
+background-color: #f2f5f6;
+	border:1px solid;	
+}
+.Cancel-button:hover{
+	color: #f2f5f6;
+	border: 2px solid #f2f5f6;
+	background-color: #293135;
+	margin-left: 20px;
+	width: 110px;
+	height: 35px;
+	transition: 0.2s;
 }
