@@ -36,7 +36,7 @@ input{
 
 select{
 	margin-top: 0px;
-	height: 23px;
+	height: 24px;
 	width: 180px;
 	border-color: #538ea3;
 }
@@ -105,6 +105,7 @@ padding: 10px;
 
 .congr{
 	margin-left: 15px;
+	font-size: 10px;
 }
 
 .btn{
@@ -196,7 +197,7 @@ height: 25px;
 
 input:hover{
 	background-color: #f2f5f6;
-	border:1px solid;
+	border:1px solid #538ea3;
 }
 
 .listElement:hover{
@@ -207,8 +208,8 @@ input:hover{
 	border-left: 4px solid #293135;
 }
 select:hover{
-background-color: #f2f5f6;
-	border:1px solid;	
+	background-color: #f2f5f6;
+	border:1px solid #538ea3;	
 }
 .Cancel-button:hover{
 	color: #f2f5f6;
