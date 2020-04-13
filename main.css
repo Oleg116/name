@@ -1,6 +1,7 @@
 body{
 	background-color: #fff;
-	font: bold italic 110% serif; 
+	font: italic 110% sans-serif;
+	font-style: normal; 
 }
 
 ul{
@@ -20,6 +21,7 @@ i{
 }
 h1{
 	margin-left: 20px;
+	font-size: 35px; 
 }
 
 input{
@@ -28,14 +30,15 @@ input{
 	height: 20px;
 	width: 180px;
 	transition: 0.3s;
-	box-shadow: 0 0 5px 0.1px;
+	border-color: #538ea3;
+	padding-left: 10px;
 }
 
 select{
 	margin-top: 0px;
 	height: 23px;
-	box-shadow: 0 0 5px 0.1px;
 	width: 180px;
+	border-color: #538ea3;
 }
 
 h2{
@@ -52,7 +55,11 @@ background-color: #f2f5f6;
 }
 
 span{
-	margin: 5px;
+	margin-left: 10px;
+	text-align: center;
+	align-content: center;
+	margin-top: 10px;
+	font-size: 16px;
 }
 
 .full-add-button{
@@ -62,6 +69,7 @@ span{
 	height: 35px
 }
 .Cancel-button{
+	font-size: 14px;
 	color: #293135;
 	border: 2px solid #293135;
 	background-color: #f2f5f6;
@@ -132,6 +140,7 @@ padding: 10px;
 }
 
 .thirdRow{
+	margin-top: 10px;
 	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
@@ -171,18 +180,19 @@ padding: 10px;
 
 .addText{
 	text-align: center;
+	justify-content: center;
 	color: #d6d6d6;
-	padding-top: 0px;
-	background-color: #293135;
+	font-size: 14px;
 	margin-left: 20px;
-	width: 110px;
-	height: 30px;
+	width: 80px;
+	height: 1px;
 }
 
 .state-select{
 width: 123px;
 height: 25px;
 }
+
 
 input:hover{
 	background-color: #f2f5f6;
@@ -194,7 +204,7 @@ input:hover{
 	padding-top: 12px;
 	padding-bottom: 8px;
 	background-color: #fff;
-	border-left: 4px solid black;
+	border-left: 4px solid #293135;
 }
 select:hover{
 background-color: #f2f5f6;
@@ -208,4 +218,12 @@ background-color: #f2f5f6;
 	width: 110px;
 	height: 35px;
 	transition: 0.2s;
+}
+
+.Addbutton:hover{
+	border-left:2px solid #293135;
+	width: 35px;
+	background-color: #293135;
+	height: 30px;
+	color: #f2f5f6;
 }
