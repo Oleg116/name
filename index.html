@@ -4,65 +4,60 @@
 	<title>title</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="main.js"></script>
 </head>
 <body>
 <div class="container">
-<nav class="nav-bar">
-	<div class="congr">
-	<h2>Hello, {{ fname }} {{ lname }}!</h2>
+  <nav class="nav-bar">
+	 <div class="congratulation">
+	 <h2>Hello, {{ fname }} {{ lname }}!</h2>
 	</div>
-	<ul class="list">
-		<li class="listElement"><i class="fa fa-cube" aria-hidden="true"></i><span>My Orders</span></li>
-		<li class="listElement"><i class="fa fa-user-o" aria-hidden="true"></i><span>My details</span></li>
-		<li class="listElement"><i class="fa fa-home"></i><span>Address Book</span></li>
-		<li class="listElement"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Sign out</span></li>
-	</ul>
+	 <ul class="list">
+		<li class="list-element"><i class="fa fa-cube" aria-hidden="true"></i><span>My Orders</span></li>
+		<li class="list-element"><i class="fa fa-user-o" aria-hidden="true"></i><span>My details</span></li>
+		<li class="list-element"><i class="fa fa-home"></i><span>Address Book</span></li>
+		<li class="list-element"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Sign out</span></li>
+	 </ul>
 
-</nav>
+  </nav>
 												 <! -- left side above rightside below -->
 <aside>
 	<div class="Address">
 		<h1>Address Book</h1>
 	<form>
-		<div class="firstrow">
-			<div class="firstblock">
+		<div class="first-row">
+			<div class="first-block">
  					<label for="fname">First name</label><br>
-  					<input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  					<input type="text" id="first-name" name="fname" placeholder="First Name"><br>
   					<label for="lname">Email Adress</label><br>
-  					<input type="email" id="lname" name="lname" placeholder="name.example@gmail.com"><br><br>
+  					<input type="email" id="last-name" class="last-name" name="lname" placeholder="name.example@gmail.com"><br><br>
   					<span>Country</span><br>
-   				<select  name="country">
-    				<option disabled selected>Choose your country</option>
-    				<option value="t1" >Ukraine</option>
-    				<option value="t2">USA</option>
-    				<option value="t3">Israel</option>
-    				<option value="t4">France</option>
+   			    <select  name="country">
+    				  <option disabled selected>Choose your country</option>
+    				  <option value="t1" >Ukraine</option>
+    				  <option value="t2">USA</option>
+    				  <option value="t3">Israel</option>
+    				  <option value="t4">France</option>
    				</select>
 			</div>
-<div class="secblock">
-<form>		
+<div class="second-block">
+
  <label for="fname">Last name</label><br>
   <input type="text" id="fname" name="fname" placeholder="Last Name"><br>
 
-  <label for="lname">Phone number</label><br>
-  <input type="tel" id="lname" name="lname" limit="10"><br><br>
+  <label for="Phone-number">Phone number</label><br>
+  <input type="tel" id="Phone-number" class="last-name" name="lname" limit="10"><br><br>
 
-  <label for="email">Adress</label>
+  <label for="Adress">Adress</label>
   <input type="text" id="Adress" name="Adress" placeholder="">
   
 </div>
 </div>
-<div class="thirdRow">
-	<div class="thirdRowElement">
-	<label for="lname">City/Town</label><br>
-  <input class="check" type="text" id="City" name="City" value=" "><br><br>
+<div class="third-row">
+	<div class="third-row-element">
+	   <label for="city">City/Town</label><br>
+      <input class="city" type="text" id="City" name="City" value=" "><br><br>
 </div>
-<div class="thirdRowElement">
+<div class="third-row-element">
 	<label for="lname">State</label><br>
    				<select  name="State" class="state-select">
     				<option disabled selected>Select</option>
@@ -73,28 +68,21 @@
     				<option value="t4">Virginia</option>
    				</select>
 </div>
-<div class="thirdRowElement">
-		<label for="lname">ZIP code</label><br>
-  <input class="check" type="text" id="ZIP" name="ZIP" value=" "><br><br>
+    <div class="third-row-element">
+		    <label for="ZIP">ZIP code</label><br>
+          <input class="ZIP" type="text" id="ZIP" name="ZIP" value=" "><br><br>
+    </div>
 </div>
-</div>
-<div class="fourthRow">
-	<div class="cancelButton">
-		<button class="Cancel-button">Cancel</button>
-</div>
-<div class="addButton">
-	<div class="full-add-button"><span class="addText">Add</span></div>
-	<div class="button"><input type="submit" name=">" class="Addbutton" value=">"></div>
-</div>
+<div class="fourth-row">
+      <div class="cancel-button">
+		    <button class="Cancel-button">Cancel</button>
+      </div>
+      <div class="add-button">
+        <div class="full-add-button"><span class="addText">Add</span></div>
+          <div class="button"><input type="submit" name=">" class="Add-button" value=">"></div>
+  </div>
 </div>
 </form>
 </aside>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="main.js"></script>
-</div>
-</div>
-</body>
+  </body>
 </html>

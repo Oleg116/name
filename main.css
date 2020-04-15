@@ -1,30 +1,37 @@
-body{
+body
+{
 	background-color: #fff;
 	font: italic 110% sans-serif;
 	font-style: normal; 
 }
 
-ul{
+ul
+{
 	margin-left: 200px;
 	display: inline;
 	align-content: center;
 	list-style: none;
 }
 
-li{
+li
+{
 	display: block;
 	margin-left: 0px;
 }
 
-i{
+i
+{
 	padding-left: 30px;
 }
-h1{
+
+h1
+{
 	margin-left: 20px;
 	font-size: 35px; 
 }
 
-input{
+input
+{
 	border: 1px solid #fff;
 	display: block;
 	height: 20px;
@@ -34,19 +41,22 @@ input{
 	padding-left: 10px;
 }
 
-select{
+select
+{
 	margin-top: 0px;
 	height: 24px;
 	width: 180px;
 	border-color: #538ea3;
 }
 
-h2{
+h2
+{
 	padding-left: : 10px;
 	display: inline-block;
 }
 
-aside{
+aside
+{
 margin: 10px;
 height: 600px;
 width: 800px;
@@ -54,7 +64,8 @@ display: inline-block;
 background-color: #f2f5f6;
 }
 
-span{
+span
+{
 	margin-left: 10px;
 	text-align: center;
 	align-content: center;
@@ -62,13 +73,16 @@ span{
 	font-size: 16px;
 }
 
-.full-add-button{
+.full-add-button
+{
 	display: flex;
 	flex-direction: row;
 	width: 110px;
 	height: 35px
 }
-.Cancel-button{
+
+.Cancel-button
+{
 	font-size: 14px;
 	color: #293135;
 	border: 2px solid #293135;
@@ -79,13 +93,15 @@ span{
 	transition: 0.2s;
 }
 
-.container{
+.container
+{
 display: flex;
 flex-direction: row;
 padding: 10px;
 }
 
-.nav-bar{
+.nav-bar
+{
 	text-align: left;
 	margin: 10px;
 	height: 600px;
@@ -94,7 +110,8 @@ padding: 10px;
 	background-color: #f2f5f6;
 }
 
-.listElement{
+.list-element
+{
 	border-left: 4px solid 	#f2f5f6;
 	align-content: left;
 	padding-bottom: 10px;
@@ -103,60 +120,71 @@ padding: 10px;
 	
 }
 
-.congr{
+.congratulation
+{
 	margin-left: 15px;
 	font-size: 10px;
 }
 
-.btn{
+.btn
+{
 	border: 0px;
 	background-color: rgba(255, 255, 255, 0);
 }
 
-.Address{
+.Address
+{
 	display: inline-block;
 	align-content: right;
 	float: left;
 }
 
-#lname{
+.last-name
+{
 	display: inline-block;
 	float: left;
 }
 
-.FLname{
+.FLname
+{
 	height: 100px;
 	width: 800px;
 	display: inline;
 }
 
-.firstrow{
+.first-row
+{
 	display: flex;
 	flex-direction: row;
 	margin-left: 22px;
 }
 
-.secblock{
+.second-block
+{
 	margin-left: 10px;
 }
 
-.thirdRow{
+.third-row
+{
 	margin-top: 10px;
 	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
 }
 
-.thirdRowElement{
+.third-row-element
+{
 	margin-left: 10px; 
 }
 
-.fourthRow{
+.fourth-row
+{
 	display: flex;
 	flex-direction: row;
 }
 
-.addButton{
+.add-button
+{
 	align-items: center;
 	width: 145px;
 	height: 30px;
@@ -167,7 +195,8 @@ padding: 10px;
 	margin-left: 20px;
 }
 
-.Addbutton{
+.Add-button
+{
 	border-left:2px solid #293135;
 	width: 35px;
 	background-color: #f2f5f6;
@@ -175,11 +204,18 @@ padding: 10px;
 	color: #293135;
 }
 
-.check{
+.city
+{
 	width: 115px;
 }
 
-.addText{
+.ZIP
+{
+	width: 115px;
+}
+
+.addText
+{
 	text-align: center;
 	justify-content: center;
 	color: #d6d6d6;
@@ -189,29 +225,36 @@ padding: 10px;
 	height: 1px;
 }
 
-.state-select{
+.state-select
+{
 width: 123px;
 height: 25px;
 }
 
 
-input:hover{
+input:hover
+{
 	background-color: #f2f5f6;
 	border:1px solid #538ea3;
 }
 
-.listElement:hover{
+.list-element:hover
+{
 	align-content: center;
 	padding-top: 12px;
 	padding-bottom: 8px;
 	background-color: #fff;
 	border-left: 4px solid #293135;
 }
-select:hover{
+
+select:hover
+{
 	background-color: #f2f5f6;
 	border:1px solid #538ea3;	
 }
-.Cancel-button:hover{
+
+.Cancel-button:hover
+{
 	color: #f2f5f6;
 	border: 2px solid #f2f5f6;
 	background-color: #293135;
@@ -221,7 +264,8 @@ select:hover{
 	transition: 0.2s;
 }
 
-.Addbutton:hover{
+.Addbutton:hover
+{
 	border-left:2px solid #293135;
 	width: 35px;
 	background-color: #293135;
