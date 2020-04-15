@@ -139,7 +139,7 @@ padding: 10px;
 	float: left;
 }
 
-.last-name
+.last-name, .email, .Phone-number
 {
 	display: inline-block;
 	float: left;
