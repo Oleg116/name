@@ -62,7 +62,6 @@ aside
 	width: 800px;
 	display: inline-block;
 	background-color: #f2f5f6;
-	display: none;
 }
 
 span
@@ -72,6 +71,26 @@ span
 	align-content: center;
 	margin-top: 10px;
 	font-size: 16px;
+}
+
+.Address-1
+{
+	display: none;
+}
+
+.Address-2
+{
+	display: none;
+}
+
+.Address-3
+{
+	display: none;
+}
+
+.Address-4
+{
+	display: none;
 }
 
 .full-add-button

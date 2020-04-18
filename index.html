@@ -13,17 +13,17 @@
 	 <h2>Hello, {{ fname }} {{ lname }}!</h2>
 	</div>
 	 <ul class="list">
-		<li class="list-element"><i class="fa fa-cube" aria-hidden="true"></i><span>My Orders</span></li>
-		<li class="list-element"><i class="fa fa-user-o" aria-hidden="true"></i><span>My details</span></li>
-		<li class="list-element" id="AdressBook"><i class="fa fa-home"></i><span>Address Book</span></li>
-		<li class="list-element"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Sign out</span></li>
+		<li class="list-element" id="AdressListButton1"><i class="fa fa-cube" aria-hidden="true"></i><span>My Orders</span></li>
+		<li class="list-element" id="AdressListButton2"><i class="fa fa-user-o" aria-hidden="true"></i><span>My details</span></li>
+		<li class="list-element" id="AdressListButton3"><i class="fa fa-home"></i><span>Address Book</span></li>
+		<li class="list-element" id="AdressListButton4"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Sign out</span></li>
 	 </ul>
 
   </nav>
 												 <! -- left side above rightside below -->
 <aside class="aside">
-	<div class="Address">
-		<h1>Address Book</h1>
+	<div class="Address-1">
+		<h1>Address Book-1</h1>
 	<form>
 		<div class="first-row">
 			<div class="first-block">
@@ -84,6 +84,196 @@
   </div>
 </div>
 </form>
+</div>
+<div class="Address-2">
+    <h1>Address Book-2</h1>
+  <form>
+    <div class="first-row">
+      <div class="first-block">
+          <label for="fname">First name</label><br>
+            <input type="text" id="first-name" name="fname" placeholder="First Name"><br>
+            <label for="lname">Email Adress</label><br>
+            <input type="email" id="email" class="email" name="email" placeholder="name.example@gmail.com"><br><br>
+            <span>Country</span><br>
+            <select  name="country">
+              <option disabled selected>Choose your country</option>
+              <option value="t1" >Ukraine</option>
+              <option value="t2">USA</option>
+              <option value="t3">Israel</option>
+              <option value="t4">France</option>
+          </select>
+      </div>
+<div class="second-block">
+
+ <label for="fname">Last name</label>
+  <input type="text" id="last-name" name="last-name" placeholder="Last Name"><br>
+
+  <label for="Phone-number">Phone number</label><br>
+  <input type="tel" id="Phone-number" class="Phone-number" name="Phone" limit="10"><br><br>
+
+  <label for="Adress">Adress</label>
+  <input type="text" id="Adress" name="Adress" placeholder="">
+  
+</div>
+</div>
+<div class="third-row">
+  <div class="third-row-element">
+     <label for="city">City/Town</label>
+      <input class="city" type="text" id="City" name="City" value=" ">
+</div>
+<div class="third-row-element">
+  <label for="State">State</label><br>
+          <select  name="State" class="state-select">
+            <option disabled selected>Select</option>
+            <option value="t1">Virginia</option>
+            <option value="t2">California</option>
+            <option value="t3">Georgia</option>
+            <option value="t4">Texas</option>
+            <option value="t4">Virginia</option>
+          </select>
+</div>
+    <div class="third-row-element">
+        <label for="ZIP">ZIP code</label><br>
+          <input class="ZIP" type="text" id="ZIP" name="ZIP" value=" "><br><br>
+    </div>
+</div>
+<div class="fourth-row">
+      <div class="cancel-button">
+        <button class="Cancel-button">Cancel</button>
+      </div>
+      <div class="add-button">
+        <div class="full-add-button"><span class="addText">Add</span></div>
+          <div class="button"><input type="submit" name=">" class="Add-button" value=">"></div>
+  </div>
+</div>
+</form>
+</div>
+<div class="Address-3">
+    <h1>Address Book-3</h1>
+  <form>
+    <div class="first-row">
+      <div class="first-block">
+          <label for="fname">First name</label><br>
+            <input type="text" id="first-name" name="fname" placeholder="First Name"><br>
+            <label for="lname">Email Adress</label><br>
+            <input type="email" id="email" class="email" name="email" placeholder="name.example@gmail.com"><br><br>
+            <span>Country</span><br>
+            <select  name="country">
+              <option disabled selected>Choose your country</option>
+              <option value="t1" >Ukraine</option>
+              <option value="t2">USA</option>
+              <option value="t3">Israel</option>
+              <option value="t4">France</option>
+          </select>
+      </div>
+<div class="second-block">
+
+ <label for="fname">Last name</label>
+  <input type="text" id="last-name" name="last-name" placeholder="Last Name"><br>
+
+  <label for="Phone-number">Phone number</label><br>
+  <input type="tel" id="Phone-number" class="Phone-number" name="Phone" limit="10"><br><br>
+
+  <label for="Adress">Adress</label>
+  <input type="text" id="Adress" name="Adress" placeholder="">
+  
+</div>
+</div>
+<div class="third-row">
+  <div class="third-row-element">
+     <label for="city">City/Town</label>
+      <input class="city" type="text" id="City" name="City" value=" ">
+</div>
+<div class="third-row-element">
+  <label for="State">State</label><br>
+          <select  name="State" class="state-select">
+            <option disabled selected>Select</option>
+            <option value="t1">Virginia</option>
+            <option value="t2">California</option>
+            <option value="t3">Georgia</option>
+            <option value="t4">Texas</option>
+            <option value="t4">Virginia</option>
+          </select>
+</div>
+    <div class="third-row-element">
+        <label for="ZIP">ZIP code</label><br>
+          <input class="ZIP" type="text" id="ZIP" name="ZIP" value=" "><br><br>
+    </div>
+</div>
+<div class="fourth-row">
+      <div class="cancel-button">
+        <button class="Cancel-button">Cancel</button>
+      </div>
+      <div class="add-button">
+        <div class="full-add-button"><span class="addText">Add</span></div>
+          <div class="button"><input type="submit" name=">" class="Add-button" value=">"></div>
+  </div>
+</div>
+</form>
+</div>
+<div class="Address-4">
+    <h1>Address Book-4</h1>
+  <form>
+    <div class="first-row">
+      <div class="first-block">
+          <label for="fname">First name</label><br>
+            <input type="text" id="first-name" name="fname" placeholder="First Name"><br>
+            <label for="lname">Email Adress</label><br>
+            <input type="email" id="email" class="email" name="email" placeholder="name.example@gmail.com"><br><br>
+            <span>Country</span><br>
+            <select  name="country">
+              <option disabled selected>Choose your country</option>
+              <option value="t1" >Ukraine</option>
+              <option value="t2">USA</option>
+              <option value="t3">Israel</option>
+              <option value="t4">France</option>
+          </select>
+      </div>
+<div class="second-block">
+
+ <label for="fname">Last name</label>
+  <input type="text" id="last-name" name="last-name" placeholder="Last Name"><br>
+
+  <label for="Phone-number">Phone number</label><br>
+  <input type="tel" id="Phone-number" class="Phone-number" name="Phone" limit="10"><br><br>
+
+  <label for="Adress">Adress</label>
+  <input type="text" id="Adress" name="Adress" placeholder="">
+  
+</div>
+</div>
+<div class="third-row">
+  <div class="third-row-element">
+     <label for="city">City/Town</label>
+      <input class="city" type="text" id="City" name="City" value=" ">
+</div>
+<div class="third-row-element">
+  <label for="State">State</label><br>
+          <select  name="State" class="state-select">
+            <option disabled selected>Select</option>
+            <option value="t1">Virginia</option>
+            <option value="t2">California</option>
+            <option value="t3">Georgia</option>
+            <option value="t4">Texas</option>
+            <option value="t4">Virginia</option>
+          </select>
+</div>
+    <div class="third-row-element">
+        <label for="ZIP">ZIP code</label><br>
+          <input class="ZIP" type="text" id="ZIP" name="ZIP" value=" "><br><br>
+    </div>
+</div>
+<div class="fourth-row">
+      <div class="cancel-button">
+        <button class="Cancel-button">Cancel</button>
+      </div>
+      <div class="add-button">
+        <div class="full-add-button"><span class="addText">Add</span></div>
+          <div class="button"><input type="submit" name=">" class="Add-button" value=">"></div>
+  </div>
+</div>
+</form>
+</div>
 </aside>
 
 <script
