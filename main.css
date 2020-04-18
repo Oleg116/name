@@ -132,10 +132,15 @@ span
 
 .list-element
 {
+	text-align: left;
+	vertical-align: center;
+	height: 30px;
 	border-left: 4px solid 	#f2f5f6;
+	border-bottom: 2px solid 	#f2f5f6;
+	border-top: 2px solid 	#f2f5f6;
 	align-content: left;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 7px;
+	padding-top: 5px;
 	transition: 0.2s;
 	
 }
@@ -261,10 +266,11 @@ input:hover
 .list-element:hover
 {
 	align-content: center;
-	padding-top: 12px;
-	padding-bottom: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	background-color: #fff;
-	border-left: 4px solid #293135;
+	border-top: 2px solid #293135;
+	border-bottom: 2px solid #293135;
 }
 
 select:hover
