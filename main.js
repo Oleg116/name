@@ -7,17 +7,18 @@ $(document).ready(() => {
   const $Address2 = $('.Address-2');
   const $Address3 = $('.Address-3');
   const $Address4 = $('.Address-4');
+  const $Address0 = $('.Address-0');
   
-  $adressButton1.on('click', () => {$Address1.slideToggle(), $Address2.slideUp(), $Address3.slideUp(), $Address4.slideUp()
+  $adressButton1.on('click', () => {$Address1.slideToggle(), $Address2.slideUp(), $Address3.slideUp(), $Address4.slideUp(), $Address0.slideUp()
 })
 
-$adressButton2.on('click', () => {$Address2.slideToggle(), $Address1.slideUp(), $Address3.slideUp(), $Address4.slideUp()
+$adressButton2.on('click', () => {$Address2.slideToggle(), $Address1.slideUp(), $Address3.slideUp(), $Address4.slideUp(), $Address0.slideUp()
 })
 
-$adressButton3.on('click', () => {$Address3.slideToggle(), $Address2.slideUp(), $Address1.slideUp(), $Address4.slideUp()
+$adressButton3.on('click', () => {$Address3.slideToggle(), $Address2.slideUp(), $Address1.slideUp(), $Address4.slideUp(), $Address0.slideUp()
 })
 
-$adressButton4.on('click', () => {$Address4.slideToggle(), $Address3.slideUp(), $Address2.slideUp(), $Address1.slideUp()
+$adressButton4.on('click', () => {$Address4.slideToggle(), $Address3.slideUp(), $Address2.slideUp(), $Address1.slideUp(), $Address0.slideUp()
 })
 $adressButton1.on('click', () =>{ $adressButton1.css('background-color', '#fff'), $adressButton2.css('background-color', '#f2f5f6'), $adressButton3.css('background-color', '#f2f5f6'), $adressButton4.css('background-color', '#f2f5f6')})
 $adressButton2.on('click', () =>{ $adressButton2.css('background-color', '#fff'), $adressButton3.css('background-color', '#f2f5f6'), $adressButton4.css('background-color', '#f2f5f6'), $adressButton1.css('background-color', '#f2f5f6')})

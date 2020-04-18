@@ -268,7 +268,7 @@ input:hover
 	align-content: center;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	background-color: #fff;
+	background-color: white;
 	border-top: 2px solid #293135;
 	border-bottom: 2px solid #293135;
 }
@@ -290,9 +290,9 @@ select:hover
 	transition: 0.2s;
 }
 
-.Addbutton:hover
+.Add-button:hover
 {
-	border-left:2px solid #293135;
+	border:2px solid #f2f5f6;
 	width: 35px;
 	background-color: #293135;
 	height: 30px;
