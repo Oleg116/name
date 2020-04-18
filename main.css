@@ -57,11 +57,12 @@ h2
 
 aside
 {
-margin: 10px;
-height: 600px;
-width: 800px;
-display: inline-block;
-background-color: #f2f5f6;
+	margin: 10px;
+	height: 600px;
+	width: 800px;
+	display: inline-block;
+	background-color: #f2f5f6;
+	display: none;
 }
 
 span
@@ -95,9 +96,9 @@ span
 
 .container
 {
-display: flex;
-flex-direction: row;
-padding: 10px;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
 }
 
 .nav-bar

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
 	<title>title</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,13 +15,13 @@
 	 <ul class="list">
 		<li class="list-element"><i class="fa fa-cube" aria-hidden="true"></i><span>My Orders</span></li>
 		<li class="list-element"><i class="fa fa-user-o" aria-hidden="true"></i><span>My details</span></li>
-		<li class="list-element"><i class="fa fa-home"></i><span>Address Book</span></li>
+		<li class="list-element" id="AdressBook"><i class="fa fa-home"></i><span>Address Book</span></li>
 		<li class="list-element"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Sign out</span></li>
 	 </ul>
 
   </nav>
 												 <! -- left side above rightside below -->
-<aside>
+<aside class="aside">
 	<div class="Address">
 		<h1>Address Book</h1>
 	<form>
@@ -32,7 +33,7 @@
   					<input type="email" id="email" class="email" name="email" placeholder="name.example@gmail.com"><br><br>
   					<span>Country</span><br>
    			    <select  name="country">
-    				  <option disabled selected>Choose your country</option>
+    		      <option disabled selected>Choose your country</option>
     				  <option value="t1" >Ukraine</option>
     				  <option value="t2">USA</option>
     				  <option value="t3">Israel</option>
@@ -41,7 +42,7 @@
 			</div>
 <div class="second-block">
 
- <label for="fname">Last name</label><br>
+ <label for="fname">Last name</label>
   <input type="text" id="last-name" name="last-name" placeholder="Last Name"><br>
 
   <label for="Phone-number">Phone number</label><br>
@@ -54,8 +55,8 @@
 </div>
 <div class="third-row">
 	<div class="third-row-element">
-	   <label for="city">City/Town</label><br>
-      <input class="city" type="text" id="City" name="City" value=" "><br><br>
+	   <label for="city">City/Town</label>
+      <input class="city" type="text" id="City" name="City" value=" ">
 </div>
 <div class="third-row-element">
 	<label for="State">State</label><br>
@@ -84,5 +85,11 @@
 </div>
 </form>
 </aside>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
   </body>
 </html>

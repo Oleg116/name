@@ -1,6 +1,7 @@
 $(document).ready(() => {
-  const $inputValue = $('#fname');
-  const $navDropdown = $('#nav-dropdown');
-$inputValue.on('click', () => {
-  $inputValue.hide()
+  const $adressBook = $('#AdressBook');
+  const $aside = $('.aside');
+  $adressBook.on('click', () => {$aside.slideToggle("left")
+})
+
 })
