@@ -19,5 +19,11 @@ $adressButton3.on('click', () => {$Address3.slideToggle(), $Address2.slideUp(), 
 
 $adressButton4.on('click', () => {$Address4.slideToggle(), $Address3.slideUp(), $Address2.slideUp(), $Address1.slideUp()
 })
+$adressButton1.on('click', () =>{ $adressButton1.css('background-color', '#fff')})
+$adressButton2.on('click', () =>{ $adressButton2.css('background-color', '#fff')})
+$adressButton3.on('click', () =>{ $adressButton3.css('background-color', '#fff')})
+$adressButton4.on('click', () =>{ $adressButton4.css('background-color', '#fff')})
+
+
 
 });
