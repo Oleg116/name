@@ -8,6 +8,8 @@ $(document).ready(() => {
   const $Address3 = $('.Address-3');
   const $Address4 = $('.Address-4');
   const $Address0 = $('.Address-0');
+  const $StoreButton = $('.Store-button');
+  const $loginChecker = $('.login-div-cheker')
   
   $adressButton1.on('click', () => {$Address1.slideToggle(), $Address2.slideUp(), $Address3.slideUp(), $Address4.slideUp(), $Address0.slideUp()
 })
@@ -29,5 +31,9 @@ $adressButton1.on('click', () =>{ $adressButton1.css('border-left', '4px solid #
 $adressButton2.on('click', () =>{ $adressButton2.css('border-left', '4px solid #293135'), $adressButton3.css('border-left', '4px solid #f2f5f6'), $adressButton4.css('border-left', '4px solid #f2f5f6'), $adressButton1.css('border-left', '4px solid #f2f5f6')})
 $adressButton3.on('click', () =>{ $adressButton3.css('border-left', '4px solid #293135'), $adressButton4.css('border-left', '4px solid #f2f5f6'), $adressButton2.css('border-left', '4px solid #f2f5f6'), $adressButton1.css('border-left', '4px solid #f2f5f6')})
 $adressButton4.on('click', () =>{ $adressButton4.css('border-left', '4px solid #293135'), $adressButton3.css('border-left', '4px solid #f2f5f6'), $adressButton2.css('border-left', '4px solid #f2f5f6'), $adressButton1.css('border-left', '4px solid #f2f5f6')})
+
+$StoreButton.on('click', () =>{$loginChecker.show()});
+
+$loginChecker.on('mouseenter', () =>{ setTimeout($loginChecker.hide(), 3*1000)});
 
 });
