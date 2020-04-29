@@ -1,37 +1,31 @@
-body
-{
+body{
 	background-color: #fff;
 	font: italic 110% sans-serif;
 	font-style: normal; 
 }
 
-ul
-{
+ul{
 	margin-left: 200px;
 	display: inline;
 	align-content: center;
 	list-style: none;
 }
 
-li
-{
+li{
 	display: block;
 	margin-left: 0px;
 }
 
-i
-{
+i{
 	padding-left: 30px;
 }
 
-h1
-{
+h1{
 	margin-left: 20px;
 	font-size: 35px; 
 }
 
-input
-{
+input{
 	border: 1px solid #fff;
 	display: block;
 	height: 20px;
@@ -41,28 +35,24 @@ input
 	padding-left: 10px;
 }
 
-select
-{
+select{
 	margin-top: 0px;
 	height: 24px;
 	width: 180px;
 	border-color: #538ea3;
 }
 
-h2
-{
+h2{
 	padding-left: : 10px;
 	display: inline-block;
 }
 
-a
-{
+a{
 	background-color: #fff;
 	width: 200px;
 }
 
-aside
-{
+aside{
 	margin: 10px;
 	height: 600px;
 	width: 800px;
@@ -70,8 +60,7 @@ aside
 	background-color: #f2f5f6;
 }
 
-span
-{
+span{
 	margin-left: 10px;
 	text-align: center;
 	align-content: center;
@@ -79,30 +68,25 @@ span
 	font-size: 16px;
 }
 
-button
-{
+button{
 	margin-bottom: 20px;
 }
 
-.span-order-list
-{
+.span-order-list{
 	font-size: 20px;
 }
 
-.first-page
-{
+.first-page{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.order-span
-{
+.order-span{
 	font-size: 20px;
 }
 
-.bye
-{
+.bye{
 	border-left:2px solid #293135;
 	width: 35px;
 	background-color: #f2f5f6;
@@ -110,8 +94,7 @@ button
 	color: #293135;
 }
 
-.account-changer
-{
+.account-changer{
 	align-content: center;
 	align-items: center;
 	width: 145px;
@@ -123,8 +106,7 @@ button
 	margin-left: 20px;
 }
 
-.button-block
-{
+.button-block{
 	align-items: center;
 	width: 145px;
 	height: 50px;
@@ -136,41 +118,23 @@ button
 }
 
 
-.order-div
-{
+.order-div{
 	margin-bottom: 10px;
 }
 
-.Address-1
-{
+.Address-1, .Address-2, .Address-3, .Address-4{
 	display: none;
 }
 
-.Address-2
-{
-	display: none;
-}
 
-.Address-3
-{
-	display: none;
-}
-
-.Address-4
-{
-	display: none;
-}
-
-.full-add-button
-{
+.full-add-button{
 	display: flex;
 	flex-direction: row;
 	width: 110px;
 	height: 35px
 }
 
-.Cancel-button
-{
+.Cancel-button{
 	font-size: 14px;
 	color: #293135;
 	border: 2px solid #293135;
@@ -181,15 +145,13 @@ button
 	transition: 0.2s;
 }
 
-.container
-{
+.container{
 	display: flex;
 	flex-direction: row;
 	padding: 10px;
 }
 
-.nav-bar
-{
+.nav-bar{
 	text-align: left;
 	margin: 10px;
 	height: 600px;
@@ -198,8 +160,7 @@ button
 	background-color: #f2f5f6;
 }
 
-.list-element
-{
+.list-element{
 	text-align: left;
 	vertical-align: center;
 	height: 30px;
@@ -213,71 +174,60 @@ button
 	
 }
 
-.congratulation
-{
+.congratulation{
 	margin-left: 15px;
 	font-size: 10px;
 }
 
-.btn
-{
+.btn{
 	border: 0px;
 	background-color: rgba(255, 255, 255, 0);
 }
 
-.Address
-{
+.Address{
 	display: inline-block;
 	align-content: right;
 	float: left;
 }
 
-.last-name, .email, .Phone-number
-{
+.last-name, .email, .Phone-number{
 	display: inline-block;
 	float: left;
 }
 
-.FLname
-{
+.FLname{
 	height: 100px;
 	width: 800px;
 	display: inline;
 }
 
-.first-row
-{
+.first-row{
 	display: flex;
 	flex-direction: row;
 	margin-left: 22px;
 }
 
-.second-block
-{
+.second-block{
 	margin-left: 10px;
 }
 
-.third-row
-{
+.third-row{
 	margin-top: 10px;
 	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
 }
 
-.third-row-element
-{
+.third-row-element{
 	margin-left: 10px; 
 }
 
-.fourth-row
-{
+.fourth-row{
 	display: flex;
 	flex-direction: row;
 }
 
-.add-button
-{
+.add-button{
 	align-items: center;
 	width: 145px;
 	height: 30px;
@@ -298,8 +248,7 @@ button
 	font-size: 10px;
 }
 
-.Add-button
-{
+.Add-button{
 	border-left:2px solid #293135;
 	width: 35px;
 	background-color: #f2f5f6;
@@ -307,8 +256,7 @@ button
 	color: #293135;
 }
 
-.Store-button
-{
+.Store-button{
 	border-left:2px solid #293135;
 	width: 35px;
 	background-color: #f2f5f6;
@@ -316,18 +264,15 @@ button
 	color: #293135;
 }
 
-.city
-{
+.city{
 	width: 115px;
 }
 
-.ZIP
-{
+.ZIP{
 	width: 115px;
 }
 
-.addText
-{
+.addText{
 	text-align: center;
 	justify-content: center;
 	color: #d6d6d6;
@@ -337,21 +282,18 @@ button
 	height: 1px;
 }
 
-.state-select
-{
+.state-select{
 width: 123px;
 height: 25px;
 }
 
 
-input:hover
-{
+input:hover{
 	background-color: #f2f5f6;
 	border:1px solid #538ea3;
 }
 
-.list-element:hover
-{
+.list-element:hover{
 	align-content: center;
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -360,14 +302,12 @@ input:hover
 	border-bottom: 2px solid #293135;
 }
 
-select:hover
-{
+select:hover{
 	background-color: #f2f5f6;
 	border:1px solid #538ea3;	
 }
 
-.Cancel-button:hover
-{
+.Cancel-button:hover{
 	color: #f2f5f6;
 	border: 2px solid #f2f5f6;
 	background-color: #293135;
@@ -377,8 +317,7 @@ select:hover
 	transition: 0.2s;
 }
 
-.Add-button:hover
-{
+.Add-button:hover{
 	border:2px solid #f2f5f6;
 	width: 35px;
 	background-color: #293135;
